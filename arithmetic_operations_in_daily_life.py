@@ -20,4 +20,4 @@ savings_amount = 10000.00
 yearly_interest_rate = .07 #converted percentage to float format for easier calculation
 end_of_year_total = savings_amount + savings_amount * yearly_interest_rate #used variables in an equation to find the new savings amount and assign it to a variable
 
-print (end_of_year_total)
+print (end_of_year_total) #print the end_of_year_total variable to see the result
