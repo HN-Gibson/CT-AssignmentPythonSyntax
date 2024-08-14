@@ -14,12 +14,10 @@ else:
 mood = input ("How are you doing today? Happy or sad?") #request input from user
 
 #added various responses to account for some user input variance
-happy = ["happy","Happy"," happy"]
-sad = ["sad","Sad"," sad"]
+happy = ["happy","Happy"," happy"," Happy"]
+sad = ["sad","Sad"," sad"," Sad"]
 
 if mood in happy: #used if/in operator to compare to the happy variable
     print ("That is great to hear!")
 if mood in sad: #used if/in operator to compare to the sad variable
     print ("I hope your day get's better!")
-else: #added an else line so the code has an endpoint
-    print ("This feeling does not compute with my machine brain...")
